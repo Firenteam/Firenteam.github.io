@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Firen't</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <div class="head">
+        <!-- Barra de navegación -->
+        <nav id="navbar" class="navbar">
+            <a href="index.html"><img src="img/fire-fill.png">FiRen't</a>
+            <a href="#producto">Producto</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=firenteam@gmail.com" target="_blank">¡Contactanos!</a>
+            <a href="paginaregistro.php">Registrarse</a>
+            <a href="paginalogin.php">log in</a>
+        </nav>
+    </div>
+
+    <!-- Cabecera -->
+    <header id="titulo" class="content_header">
+        <h1 class="title">FIRE</h1>
+            <h5 class="slogan">Más que una promesa, Tu Guardián contra Incendios</h5>
+    </header>
+
+<section class="nosotros">
+    <h2>Nosotros</h2>
+    <p class="nosotros">Somos una empresa comprometida con la excelencia y la satisfacción del cliente. Desde nuestro inicio, nos hemos esforzado por ofrecer productos y servicios de la más alta calidad, con un enfoque en la innovación y la atención al detalle.
+
+        Nuestra misión es proporcionar soluciones efectivas y eficientes que superen las expectativas de nuestros clientes. Nos enorgullecemos de mantener los más altos estándares de integridad y profesionalismo en todas nuestras operaciones.
+        
+        Con un equipo altamente capacitado y experimentado, estamos dedicados a brindar un servicio excepcional y a construir relaciones duraderas con nuestros clientes. Valoramos la confianza que nuestros clientes depositan en nosotros y nos esforzamos por superar sus expectativas en cada interacción.
+        
+        Estamos comprometidos con el crecimiento continuo y la mejora constante, y nos esforzamos por ser líderes en nuestra industria. Esperamos seguir sirviendo a nuestra comunidad y más allá, brindando soluciones que marquen la diferencia en la vida de las personas y las empresas.
+        
+        No dudes en contactarnos para conocer más sobre lo que hacemos y cómo podemos ayudarte a alcanzar tus objetivos.
+        </p>
+</section>
+
+
+
+<section class="Equipo">
+    <h2>Integrantes de Firenteam</h2>
+    <section class="integrantes slider">
+        <!-- Aquí van tus bloques de desarrolladores -->
+        <h3>Jose Alejandro Britez<p>Administrador del proyecto</p></h3>
+        <h3>Mohr Federico Agustin<p>Desarrollador de software</p></h3>
+        <h3>Frutos Lucia Beatriz<p>Desarrolladora de software</p></h3>
+        <h3>Barrios Gómez Maiten Micaela<p>Desarrolladora de hardware</p></h3>
+        <h3>Ezequiel Orlando Prestes<p>Diseñador</p></h3>
+        <h3>Ramirez Agustin Sebastian<p>Documentacion</p></h3>
+        <h3>Rodrigo Sebastian Elizalde<p>Diseñador de la pagina y redes</p></h3>
+    </section>
+</section>
+
+<!-- ... -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    });
+</script>
+
+<section class="separacion">
+    
+</section>
+
+
+<footer class="footer">
+    <div class="redes-sociales">
+        <p>Síguenos en nuestras redes</p>
+        <a href="https://www.facebook.com/firenteam"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com/@Firenteam"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/firenteam"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="derechos-autor">
+        <p>&copy; firent 2023</p>
+    </div>
+    <div class="correo">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=firenteam@gmail.com" target="_blank">Firenteam@gmail.com</a>
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+#navbar {
+    display: flex;
+    font-size: 30px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #000000;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    }
+    .navbar a {
+        display: block;
+        padding: 20px 20px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        
+    }
+
+    .navbar a:hover{
+        color: #ffcc00;
+    }
+
+
+    #navbar img {
+        margin-right: 10px; /* Espacio entre la imagen y el texto */
+
+    }
+
+.head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 63px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    .content_header {
+        height: 100vh; /* 100% del alto de la ventana (viewport) */
+        background: url(https://c.files.bbci.co.uk/184E3/production/_126255599_incendios10.jpg) no-repeat center center fixed;
+        background-size: cover;
+        opacity: 0.95; /* Cambiado a 0.95 para mantener la opacidad en un rango de 0 a 1 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: background-position 0.5s ease-in-out;
+      }
+      .slogan {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #fff; /* Color del texto */
+    }
+      .title {
+        font-size: 200px; /* Tamaño de fuente deseado */
+        color: #fff; /* Color del texto */
+        font-family: system-ui;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #2b2b2b);
+
+    }
+
+.producto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px; /* Espacio interno entre las secciones */
+    }
+    
+    .texto-producto {
+        flex-basis: calc(50% - 20px); /* Tamaño de la parte de texto con margen */
+        margin-right: 20px; /* Espacio entre las partes de texto e imagen */
+        text-align: left; /* Alineación del texto */
+    }
+    
+    .texto-producto h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+    
+
+    .texto-producto h4 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .imagen-producto {
+        flex-basis: calc(50% - 20px); /* Tamaño de la parte de imagen con margen */
+        border-radius: 100px; /* Ajusta el valor de la propiedad para controlar la cantidad de redondeo que deseas */
+    }
+    
+    .imagen-producto img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .imagen-incendios{
+        max-width: 100%;
+        height: auto;
+        flex-basis: calc(50% - 20px); /* Tamaño de la parte de imagen con margen */
+    }
+
+.cproducto{
+    background-color: #2b2b2b;
+}
+
+ h2 {
+        text-align: center; /* Centra el texto horizontalmente */
+        margin-top: 0; 
+        margin-bottom: 3rem;
+        font-size: 4rem;
+        background: linear-gradient(to right, #d0ff00, #ff0000); /* Cambia los colores según tus preferencias */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+
+.cuadros{
+    background: linear-gradient(to bottom, #000000, #2b2b2b);
+}
+
+.caracteristicas {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .caracteristica {
+        flex-basis: calc(33.33% - 20px); /* Tamaño de cada columna con margen */
+        margin: 0 10px; /* Espacio entre las columnas */
+        text-align: center;
+        border-radius: 30px;
+        padding: 20px; /* Espacio interno entre el contenido y el borde */
+    }
+    
+    .caracteristica img {
+        max-width: 100%;
+        height: auto;
+        max-height: 200px; /* Establece una altura máxima (ajústala según tus necesidades) */
+    }
+    
+    .caracteristica h3 {
+        font-size: 24px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .caracteristica p {
+        font-size: 16px;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+.compra-producto {
+        text-align: center;
+        padding: 50px;
+        background: linear-gradient(to bottom, #2b2b2b, #000000);
+    }
+    
+    .compra-producto h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .compra-producto p {
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+    
+    .boton-compra {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    .boton-compra:hover {
+        background-color: #45a049;
+    }
+    
+.footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: #000000;
+        color: #fff;
+        padding: 10px 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .redes-sociales {
+        display: flex;
+        align-items: center;
+    }
+    
+    .redes-sociales p {
+        padding-left: 10px;
+    }
+
+    .redes-sociales a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+    
+    .redes-sociales a:hover {
+        color: #ffcc00;
+    }
+    
+    .derechos-autor {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-right: 150px;
+    }
+
+    .correo {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .correo a {
+        padding-right: 20px;
+        margin: 0;
+        text-decoration: none;
+        color: #ffffff; /* Cambia el color del texto del enlace si es necesario */
+    }
+
+
+
+/* Estilos para la clase "nosotros" */
+.nosotros {
+    text-align: center; /* Alineación de texto */
+    color: #333333; /* Color del texto */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    line-height: 1.6; /* Altura de línea */
+             }
+    
+        /* Estilos para h2 dentro de la clase "nosotros" */
+    .nosotros h2 {
+        font-size: 70px; /* Tamaño de fuente para h2 */
+        margin-bottom: 20px; /* Margen inferior para h2 */
+        background: linear-gradient(to right, #fcff32, #ff0000); /* Cambia los colores según tus preferencias */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+        /* Estilos para p dentro de la clase "nosotros" */
+    .nosotros p {
+        font-size: 18px; /* Tamaño de fuente para p */
+        margin: 0 auto; /* Margen automático para p */
+        max-width: 600px; /* Ancho máximo para p */
+        background: linear-gradient(to bottom, #ffffff, #919191); /* Cambia los colores según tus preferencias */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+    
+        /* Estilos para la clase "Equipo" */
+        .Equipo {
+            text-align: center; /* Alineación de texto */
+            font-family: Arial, sans-serif; /* Familia de fuentes */
+            line-height: 1.6; /* Altura de línea */
+        }
+
+        /* Estilos para h2 dentro de la clase "Equipo" */
+        .Equipo h2 {
+            padding-top: 20px;
+            font-size: 50px; /* Tamaño de fuente para h2 */
+            margin-bottom: 20px; /* Margen inferior para h2 */
+        }
+
+        /* Estilos para la clase "integrantes" dentro de la clase "Equipo" */
+        .Equipo .integrantes {
+            display: flex; /* Mostrar elementos como flexbox */
+            justify-content: center; /* Alinear elementos al centro horizontalmente */
+            gap: 50px; /* Espacio entre los elementos */
+            margin-top: 20px; /* Margen superior para la sección de integrantes */
+        }
+
+        /* Estilos para las imágenes dentro de la clase "Equipo" */
+        .Equipo img {
+            max-width: 100%; /* Ancho máximo para las imágenes */
+            border-radius: 50%; /* Bordes redondeados para las imágenes */
+            margin-bottom: 15px; /* Margen inferior para las imágenes */
+        }
+
+        /* Estilos para h3 dentro de la clase "Equipo" */
+        .Equipo h3 {
+            font-size: 22px; /* Tamaño de fuente para h3 */
+            margin-bottom: 10px; /* Margen inferior para h3 */
+            text-align: center; /* Alineación de texto */
+            font-family: Arial, sans-serif; /* Familia de fuentes */
+            line-height: 1.6; /* Altura de línea */
+            background: linear-gradient(to right, #fcff32, #ff0000); /* Cambia los colores según tus preferencias */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Estilos para p dentro de la clase "Equipo" */
+        .Equipo p {
+            font-size: 16px; /* Tamaño de fuente para p */
+            color: #ffffff; /* Color del texto */
+        }
+
+.separacion{
+    padding-bottom: 5rem;
+    background: linear-gradient(to bottom,  #282824  , #000000);
+}
